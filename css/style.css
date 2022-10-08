@@ -269,4 +269,22 @@ footer img {
   .links {
     margin-left: 5rem;
   }
+  .container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-2 {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-2 img {
+    height: 100px;
+  }
+  .container-3 {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+  }
 }
