@@ -1,0 +1,272 @@
+:root {
+}
+.catogory {
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: lato, sans-serif;
+  line-height: 1.4;
+  background-color: rgb(237, 231, 231);
+}
+ul {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+.navbar {
+  display: grid;
+  grid-template-columns: 6fr 3fr 2fr;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: px;
+  background-color: white;
+}
+.navbar img {
+  width: 225px;
+  margin-left: 20px;
+  position: relative;
+}
+ul {
+  display: flex;
+  gap: 10px;
+}
+.navbar a {
+  font-size: 15px;
+  padding: 5px;
+  text-align: center;
+  color: blue;
+}
+.navbar .links a {
+  font-size: 20px;
+  background-color: rgb(218, 52, 52);
+  color: white;
+}
+.navbar .links a:hover {
+  background-color: white;
+  color: red;
+}
+.main-img {
+  position: relative;
+}
+.main-img::before {
+  content: "";
+  background: url(../img/featured.jpg) no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70vh;
+  z-index: -1;
+  opacity: 0.9;
+}
+.img-1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.main-text {
+  margin-top: 12rem;
+}
+h1 {
+  font-size: 4rem;
+  color: red;
+  font-family: staatliches, sans-serif;
+}
+.main-para {
+  font-family: staatliches, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10rem;
+}
+.para-1 {
+  margin-right: 39rem;
+  background-color: orange;
+  border-radius: 10px;
+  padding: 2px;
+  display: inline-block;
+}
+.btn {
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  transition: all 1s ease-in;
+}
+.btn:hover {
+  background-color: red;
+  color: white;
+}
+.griding img {
+  width: 100%;
+}
+
+.griding {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-gap: 3rem;
+  background-color: white;
+}
+.container {
+  width: 1000px;
+  margin: auto;
+  margin-top: 10rem;
+}
+.color-text-1 {
+  font-size: 1.1rem;
+  color: red;
+  text-align: center;
+  font-family: staatliches, sans-serif;
+}
+.gridding-2 img {
+  width: 100%;
+}
+.container-2 {
+  width: 1000px;
+  margin: auto;
+  margin-top: 1rem;
+}
+.gridding-2 {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-gap: 3rem;
+  background-color: white;
+}
+.gridding-2 .color-text-2 {
+  font-size: 1.1rem;
+  color: blue;
+  text-align: center;
+  font-family: staatliches, sans-serif;
+}
+.color-text-3 {
+  font-size: 1.1rem;
+  color: green;
+  text-align: center;
+  font-family: staatliches, sans-serif;
+}
+aside img {
+  width: 100%;
+}
+.container-3 {
+  width: 1000px;
+  margin: auto;
+  margin-top: 1rem;
+  background-color: white;
+}
+.griding-3 {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-gap: 3rem;
+}
+.color-text-4 {
+  font-size: 1.1rem;
+  color: orange;
+  text-align: center;
+  font-family: staatliches, sans-serif;
+}
+footer img {
+  width: 50%;
+}
+.foot {
+  display: grid;
+  grid-template-columns: 5fr 4fr 3fr 2fr;
+  background-color: black;
+  color: white;
+  grid-gap: 5px;
+  padding: 16px;
+}
+.foot-1 {
+  text-align: center;
+  margin-right: 10px;
+}
+.foot-2 {
+  text-align: center;
+  margin-right: 10px;
+}
+.foot-2 input {
+  padding: 5px 10px;
+}
+
+.foot-btn {
+  margin-top: 4px;
+  padding: 5px 3rem;
+  background-color: red;
+  color: white;
+}
+.foot-btn:hover {
+  background-color: rgb(71, 14, 14);
+  color: white;
+}
+.foot-3 {
+  text-align: center;
+}
+.foot-3 a {
+  color: white;
+}
+.foot-4 {
+  text-align: center;
+}
+.join {
+  padding: 4px 15px;
+  background-color: orange;
+  color: white;
+}
+.container-abt {
+  max-width: 1000px;
+  margin: auto;
+}
+.abt-2 {
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+.grid-abt {
+  margin: 1rem;
+  padding: 1.5rem;
+}
+.grid-abt {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  grid-gap: 1.5rem;
+}
+.about-head {
+  font-family: staatliches, sans-serif;
+}
+.grid-abt > *:first-child {
+  grid-row: 1 / span 3;
+}
+.abt-btn {
+  background-color: black;
+  color: white;
+  font-family: staatliches, sans-serif;
+  cursor: pointer;
+  padding: 2px 10px;
+}
+.about-1 {
+  background-color: white;
+}
+@media screen and (max-width: 500px) {
+  .social {
+    display: none;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  footer {
+    display: flex;
+  }
+  .links {
+    margin-left: 5rem;
+  }
+}
